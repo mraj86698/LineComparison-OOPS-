@@ -7,6 +7,8 @@ public class LineComparison {
 		comp.welcome();
 		comp.input();
 		comp.distance();
+		comp.compare();
+		comp.compare2();
 		
 
 	}
