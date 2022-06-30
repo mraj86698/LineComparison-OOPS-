@@ -30,6 +30,14 @@ public class Computation {
 		System.out.println("Length of a First Line is " + line1_length);
 		System.out.println("Length of a Second Line is " + line2_length);
 	}
+	public void compare() {
+		if(line1_length == line2_length) {
+			System.out.println("The Two Lines are Equal");
+		}
+		else {
+			System.out.println("They are not Equal");
+		}
+	}
 
 
 }
