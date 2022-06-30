@@ -31,13 +31,15 @@ public class Computation {
 		System.out.println("Length of a Second Line is " + line2_length);
 	}
 	public void compare() {
-		if(line1_length == line2_length) {
-			System.out.println("The Two Lines are Equal");
-		}
-		else {
-			System.out.println("They are not Equal");
-		}
+		Integer obj1 = new Integer((int) line1_length);
+		Integer obj2 = new Integer((int) line2_length);
+		
+		if (obj1.compareTo(obj2) > 0)
+			System.out.println("Length of the First line is Greater");
+		else
+			System.out.println("Length of the Second Line is Greater");
 	}
+	
 
 
 }
